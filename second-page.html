@@ -8,6 +8,23 @@
     <p>Welcome to the new page!</p>
 </body>
 </html>
-for (let i = 0; i < 1000; i++) {
-  window.open('https://youtube.com', '_blank');
-}
+<p>click on the smiley for a surprise</p>
+<p>:)</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open 1000 Tabs</title>
+    <script>
+        function openTabs() {
+            for (let i = 0; i < 100; i++) {
+                window.open("https://youtube.com", "_blank");
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="openTabs()">Open 1000 Tabs</button>
+</body>
+</html>
